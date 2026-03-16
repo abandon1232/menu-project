@@ -15,7 +15,6 @@ fetch("menu.json").then(res => res.json()).then(data => {
             "<div class='price'>" + dish.price + "</div>" +
             "<div class='add-button'> + </div>";
 
-
         if (i < 5) {
             recommendations.appendChild(card);
         } else if (i < 10) {

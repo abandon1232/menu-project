@@ -6,7 +6,7 @@ body {
 
 .title {
     text-align: center;
-    font-size: 48px;
+    font-size: 52px;
     padding: 30px;
     font-family: cursive;
     color: #d4af37;
@@ -51,7 +51,7 @@ body {
     padding: 15px;
     background: white;
     position: relative;
-    box-shadow: 0 4px 10px rgba(0,0,0,0.15);
+    box-shadow: 0 4px 10px rgba(0,0,0,0.2);
 }
 
 .card h3 {
@@ -75,6 +75,6 @@ body {
     font-size: 24px;
     text-align: center;
     line-height: 36px;
-    cursor: pointer;
+    background-color: #d6c6a8;
 }
 
