@@ -26,15 +26,22 @@ body {
     bottom: 0;
     width: 100%;
     display: flex;
-    justify-content: space-around;
     background: #ece9e5;
-    padding: 30px; 
     font-size: 32px;
 }
 
 .bottom-nav a {
+    flex: 1; 
+    text-align: center;
+    padding: 20px;
     text-decoration: none;
     color: black;
+}
+
+.bottom-nav a.current {
+    color: #d4af37;
+    font-weight: bold;
+    border: 2px solid black;
 }
 
 .scroll-row {
