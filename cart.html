@@ -5,6 +5,55 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
     <link rel="stylesheet" href="css/style.css">
     <title>Your Cart | Grand Hotel</title>
+
+        <style>
+        /* Confirmation Popup */
+        .confirm-popup {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(10, 7, 7, 0.752);
+            display: none;
+            justify-content: center;
+            align-items: center;
+            z-index: 1000;
+        }
+
+        .popup-box {
+            background: #b69a4f;
+            padding: 20px;
+            border-radius: 10px;
+            text-align: center;
+        }
+
+        .popup-box button {
+            margin: 10px;
+            padding: 10px 15px;
+            cursor: pointer;
+        }
+
+        /* Toast */
+        .toast {
+            visibility: hidden;
+            min-width: 200px;
+            background-color: #16c80c;
+            color: #fff;
+            text-align: center;
+            border-radius: 8px;
+            padding: 12px;
+            position: fixed;
+            bottom: 30px;
+            left: 50%;
+            transform: translateX(-50%);
+            z-index: 1001;
+            height: fit-content;
+            width: auto;
+            margin-top: 500px;
+        }
+    </style>
+</head>
 </head>
 <body>
 
@@ -14,7 +63,6 @@
 
 <main class="cart-container">
     <div id="cart-content"></div>
-
     <div class="cart-tip-container" id="cart-tip-container" style="display: none;">
         <span data-i18n="lblTip">Add Tip:</span>
         <div class="tip-options">
@@ -50,6 +98,24 @@
 <button class="call-service-btn">🛎️</button>
 
 <div id="toast" class="toast"></div>
+
+<!-- Confirmation Popup -->
+<div id="confirm-popup" class="confirm-popup">
+    <div class="popup-box">
+        <p>Are you sure you want to proceed?</p>
+        <button id="confirm-yes">Yes</button>
+        <button id="confirm-no">No</button>
+    </div>
+</div>
+
+<!-- order confirmed -->
+ <div id="success-screen" class="success-screen">
+    <div class="success-box">
+        <h1>✅</h1>
+        <h2>Order Confirmed</h2>
+        <p>Your food is being prepared...</p>
+    </div>
+</div>
 
 <script src="js/model.js"></script>
 <script src="js/view.js"></script>

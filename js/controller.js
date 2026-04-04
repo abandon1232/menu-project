@@ -166,6 +166,42 @@ class AppController {
                 }
             }
 
+                // -------------------------------
+            // Checkout Button Logic
+            // -------------------------------
+
+            // Open confirmation popup
+            if (e.target.matches('#checkout-btn')) {
+                const popup = document.getElementById("confirm-popup");
+                if (popup) popup.style.display = "flex";
+            }
+
+            // Close popup (No)
+            if (e.target.matches('#confirm-no')) {
+                const popup = document.getElementById("confirm-popup");
+                if (popup) popup.style.display = "none";
+            }
+
+            // Confirm order (Yes)
+            if (e.target.matches('#confirm-yes')) {
+                const popup = document.getElementById("confirm-popup");
+                const successScreen = document.getElementById("success-screen");
+
+                if (popup) popup.style.display = "none";
+                if (successScreen) successScreen.style.display = "flex";
+
+                this.model.clearCart?.();
+                //localStorage.removeItem("cart");
+
+                this.refreshCartView();
+
+                // Redirect after delay
+                setTimeout(() => {
+                    window.location.href = "main.html";
+                }, 3500);
+            }
+
+
             // View Dish Details from Cart
             const cartItemInfoEl = e.target.closest('.cart-item-info');
             if (cartItemInfoEl) {
