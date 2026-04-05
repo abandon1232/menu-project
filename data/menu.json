@@ -89,7 +89,8 @@
     "category": "starters",
     "dietary": [
       "vegetarian",
-      "gluten-free"
+      "gluten-free", 
+      "halal"
     ],
     "image": "images/burrata.jpg",
     "story": "A celebration of simple, vibrant Mediterranean flavors. We air-freight fresh, creamy Burrata cheese directly from Puglia, Italy, serving it alongside sun-ripened, intensely sweet heirloom tomatoes. Finished with hand-torn basil leaves, sea salt, and a generous pour of cold-pressed, single-estate extra virgin olive oil."
@@ -108,7 +109,8 @@
     "category": "lightCourses",
     "dietary": [
       "vegetarian",
-      "lactose-free"
+      "lactose-free", 
+      "halal"
     ],
     "image": "images/avocado_toast.jpg",
     "story": "Elevating a modern classic to new heights. We use our house-baked, 72-hour fermented sourdough as the foundation, topped with a generous layer of perfectly ripe, smashed Hass avocados. Two exquisitely poached farm-fresh eggs crown the dish, finished with vibrant chili flakes to add a subtle, warming kick."
@@ -129,7 +131,8 @@
     "dietary": [
       "vegan",
       "lactose-free",
-      "gluten-free"
+      "gluten-free", 
+      "halal"
     ],
     "image": "images/curry.jpg",
     "story": "A vibrant, aromatic journey to the East. Our rich, creamy coconut milk base is infused with a meticulously hand-pounded blend of authentic Thai curry spices and fresh lemongrass. We simmer a colorful array of crisp, roasted market vegetables in this fragrant broth, served alongside fragrant, perfectly steamed jasmine rice."
@@ -147,7 +150,8 @@
     ],
     "category": "desserts",
     "dietary": [
-      "gluten-free"
+      "gluten-free", 
+      "halal"
     ],
     "image": "images/fondant.jpg",
     "story": "The ultimate decadent finale. Our signature chocolate fondant is baked exactly to order, featuring a delicate cake exterior that yields to a rushing center of warm, molten dark chocolate. Dusted with a snow-like layer of powdered sugar, it provides a dramatic, melt-in-your-mouth experience that is purely unforgettable."
@@ -219,7 +223,8 @@
     "dietary": [
       "vegan",
       "gluten-free",
-      "lactose-free"
+      "lactose-free", 
+      "halal"
     ],
     "image": "images/quinoa.jpg",
     "story": "Nourishment presented elegantly. A hearty base of fluffy, protein-rich quinoa is beautifully arranged with caramelized, oven-roasted sweet potatoes and crisp, massage-tenderized baby kale. It is all brought together by a rich, house-made tahini dressing, delivering a perfect harmony of earthy, sweet, and nutty flavors."
@@ -256,7 +261,7 @@
       "vanilla cream"
     ],
     "category": "desserts",
-    "dietary": [],
+    "dietary": ["halal"],
     "image": "images/appletart.jpg",
     "story": "A stunning homage to the French countryside. Featuring wafer-thin slices of tart, crisp apples beautifully fanned over a buttery, flaky puff pastry crust that shatters perfectly at the touch of a fork. Served warm from the oven alongside a generous scoop of artisanal vanilla bean cream for a rich, comforting finish."
   },
@@ -290,7 +295,7 @@
       "anchovies"
     ],
     "category": "starters",
-    "dietary": [],
+    "dietary": ["halal"],
     "image": "images/caesar.jpg",
     "story": "Our uncompromising take on the legendary salad. We use only the crispest inner leaves of Romaine lettuce, tossed in a pungent, creamy, house-made dressing featuring authentic Spanish anchovies and roasted garlic. Finished with oversized, garlic-rubbed artisan croutons and generous shavings of aged Parmigiano-Reggiano."
   },
@@ -307,7 +312,8 @@
     ],
     "category": "main",
     "dietary": [
-      "gluten-free"
+      "gluten-free", 
+      "halal"
     ],
     "image": "images/salmon.jpg",
     "story": "A premium cut of thick, sustainably caught Atlantic salmon, expertly grilled to achieve a delicate, smoky char while remaining remarkably moist inside. Plated effortlessly over vibrant, crisp-tender charred asparagus spears and finished with a bright squeeze of fresh lemon, representing pure, unadulterated flavor."
@@ -326,7 +332,8 @@
     "category": "starters",
     "dietary": [
       "vegetarian",
-      "gluten-free"
+      "gluten-free", 
+      "halal"
     ],
     "image": "images/mushroom.jpg",
     "story": "Deep, earthy, and supremely comforting. We slow-roast a blend of wild, seasonal forest mushrooms to concentrate their intense flavors, then blend them smoothly with rich, heavy cream and homemade vegetable stock. Each bowl is elegantly garnished with fresh sprigs of thyme and a swirl of truffle oil."
@@ -345,7 +352,8 @@
     "dietary": [
       "vegan",
       "lactose-free",
-      "gluten-free"
+      "gluten-free", 
+      "halal"
     ],
     "image": "images/mango.jpg",
     "story": "The perfect palate cleanser or light conclusion to your dining experience. A vibrant, intensely fruity sorbet made exclusively from exceptionally ripe, sweet Alphonso mangoes. It avoids heavily processed sugars, relying entirely on the natural sweetness of the fruit to deliver a frosty, tropical delight."
@@ -411,7 +419,8 @@
     "dietary": [
       "vegan",
       "lactose-free",
-      "gluten-free"
+      "gluten-free", 
+      "halal"
     ],
     "image": "images/veganmenu.jpg",
     "story": "An uncompromised, entirely plant-based gastronomic experience. This exclusive two-course journey proves that vegan dining can be exceptionally luxurious. It features a vibrant, nutrient-dense lighter course followed by a deeply satisfying, entirely animal-free main, crafted to surprise and delight the palate."

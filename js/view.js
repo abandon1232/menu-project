@@ -30,7 +30,8 @@ const I18N_DICT = {
     "gluten-free": "Gluten-Free",
     "lactose-free": "Lactose-Free",
     "non-alcoholic": "Non-Alcoholic",
-    alcoholic: "Alcoholic"
+    alcoholic: "Alcoholic",
+    halal: "Halal"
 };
 
 /**
@@ -112,6 +113,7 @@ class AppView {
                 if (c === 'alcoholic') icon = '🍷';
                 if (c === 'non-alcoholic') icon = '🧃';
                 if (c === 'onions') icon = '🧅';
+                if (c === 'halal') icon = '✔'; 
                 constraintsHtml += `<span class="badge" title="${cTitle}">${icon} ${cTitle}</span>`;
             });
             constraintsHtml += '</div>';
@@ -206,9 +208,9 @@ class AppView {
         } else if (activeCategory === 'desserts') {
             availableFilters = ['vegan', 'lactose-free', 'gluten-free'];
         } else if (activeCategory === 'all') {
-            availableFilters = ['vegan', 'vegetarian', 'lactose-free', 'gluten-free', 'no-onions', 'alcoholic', 'non-alcoholic'];
+            availableFilters = ['vegan', 'vegetarian', 'halal', 'lactose-free', 'gluten-free', 'no-onions', 'alcoholic', 'non-alcoholic'];
         } else {
-            availableFilters = ['vegan', 'vegetarian', 'lactose-free', 'gluten-free', 'no-onions'];
+            availableFilters = ['vegan', 'vegetarian', 'halal', 'lactose-free', 'gluten-free', 'no-onions'];
         }
 
         container.innerHTML = availableFilters.map(f => {
@@ -236,6 +238,7 @@ class AppView {
                 if (c === 'alcoholic') icon = '🍷';
                 if (c === 'non-alcoholic') icon = '🧃';
                 if (c === 'onions') icon = '🧅';
+                if (c === 'halal') icon = '✔'; 
                 constraintsHtml += `<span class="badge" title="${cTitle}">${icon} ${cTitle}</span>`;
             });
             constraintsHtml += '</div>';
@@ -298,9 +301,19 @@ class AppView {
                 items = items.filter(dish => {
                     const dishDietary = dish.dietary || [];
                     return activeFilters.every(filter => {
+                        
                         if (filter === 'no-onions') {
                             return !dishDietary.includes('onions');
                         }
+
+                        if (filter === 'vegetarian') {
+                            return dishDietary.includes('vegetarian') || dishDietary.includes('vegan'); 
+                        }
+
+                        if (filter === 'halal') {
+                            return dishDietary.includes(filter) || dish.dietary.includes('non-alcoholic'); 
+                        }
+
                         return dishDietary.includes(filter);
                     });
                 });
