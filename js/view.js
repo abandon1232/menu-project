@@ -542,7 +542,7 @@ class AppView {
             // Calculate total quantity of items instead of just array length
             const totalCount = cartData.reduce((sum, item) => sum + (item.quantity || 1), 0);
 
-            const prefix = "Cart";
+            const prefix = this.getTranslation("navCart", lang);
             badge.innerText = totalCount > 0 ? `${prefix} (${totalCount})` : prefix;
         }
     }
