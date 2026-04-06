@@ -76,6 +76,21 @@ class AppController {
             }
         });
 
+        // Language Switcher
+        document.addEventListener('change', (e) => {
+            if (e.target.id === 'langSwitcher') {
+                this.applyLanguage(e.target.value);
+                this.refreshMenuAndHomeView();
+                this.refreshCartView();
+                
+                // Refresh modal if it's currently open
+                const overlay = document.getElementById('dishModalOverlay');
+                if (overlay && overlay.classList.contains('active') && this.currentDishData) {
+                    this.view.openDishModal(this.currentDishData, e.target.value);
+                }
+            }
+        });
+
         // Click events
         document.addEventListener('click', (e) => {
             
@@ -160,7 +175,8 @@ class AppController {
             if (cardEl && !e.target.closest('.add-button')) {
                 const dishStr = cardEl.getAttribute('data-dish');
                 if (dishStr) {
-                    const dishData = JSON.parse(dishStr);
+                    const dishData = JSON.parse(dishStr.replace(/&apos;/g, "'"));
+                    this.currentDishData = dishData;
                     this.view.openDishModal(dishData, this.model.language);
                 }
             }
@@ -205,6 +221,7 @@ class AppController {
                 if (dishId && Array.isArray(this.model.menuData)) {
                     const fullDish = this.model.menuData.find(d => String(d.id) === String(dishId));
                     if (fullDish) {
+                        this.currentDishData = fullDish;
                         this.view.openDishModal(fullDish, this.model.language);
                     }
                 }
@@ -219,8 +236,10 @@ class AppController {
             if (e.target.matches('#btnDishModalAdd')) {
                 const dishData = JSON.parse(e.target.getAttribute('data-dish'));
                 this.model.addToCart(dishData);
-                this.refreshCartView();
-                this.view.showToast('toastAdd', this.model.language, dishData.name);
+                const lang = window.appModel.getLanguage();
+                const translatedName = dishData['name_' + lang] || dishData.name;
+                window.appView.showToast('toastAdd', lang, translatedName);
+                window.appView.updateCartBadge(window.appModel.cart, lang);
                 this.view.closeDishModal(); // Automatically close overlay to keep user flow fast
             }
         });
@@ -275,7 +294,9 @@ class AppController {
             setTimeout(() => { cartLink.style.transform = "scale(1)"; }, 200);
         }
 
-        this.view.showToast("toastAdd", this.model.getLanguage(), dish.name);
+        const lang = this.model.getLanguage();
+        const translatedName = dish['name_' + lang] || dish.name;
+        this.view.showToast("toastAdd", lang, translatedName);
     }
 }
 

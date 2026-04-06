@@ -1,37 +1,148 @@
 const I18N_DICT = {
-    title: "Grand Hotel",
-    navStart: "Start",
-    navMenu: "Menu",
-    navCart: "Cart",
-    lblTrending: "Trending & Recommendations",
-    catAll: "All",
-    lblSpecial: "Today's Special",
-    lblStarters: "Starters",
-    lblLightCourses: "Light Courses",
-    lblMain: "Main Courses",
-    lblDesserts: "Desserts",
-    lblBeverages: "Beverages",
-    lblSetMeals: "Set Meals",
-    callService: "🛎️",
-    srvReqTitle: "Service Request",
-    srvReqText: "Do you require assistance from our staff?",
-    btnCancel: "Cancel",
-    btnCall: "Call Waiter",
-    toastSrv: "Wait! staff is on the way!",
-    toastAdd: "added to cart",
-    emptyCart: "Your cart is empty.",
-    lblTip: "Add Tip:",
-    lblTotal: "Total:",
-    btnCheckout: "Proceed to Checkout",
-    vegetarian: "Vegetarian",
-    vegan: "Vegan",
-    "no-onions": "No Onions",
-    onions: "Contains Onions",
-    "gluten-free": "Gluten-Free",
-    "lactose-free": "Lactose-Free",
-    "non-alcoholic": "Non-Alcoholic",
-    alcoholic: "Alcoholic",
-    halal: "Halal"
+    en: {
+        lblIngredients: "Ingredients",
+        lblAddToCart: "Add to Cart",
+        lblUnitPrice: "Unit Price:",
+        lblClickDetails: "Click to view details",
+        checkoutTitle: "Checkout",
+        checkoutConfirmMsg: "Are you sure you want to proceed with your order?",
+        btnConfirm: "Confirm",
+        orderConfirmedTitle: "Order Confirmed",
+        orderConfirmedMsg: "Your food is being prepared with care...",
+        btnReturnMenu: "Return to Main Menu",
+        heroDesc: "Experience culinary excellence and meticulous service at the finest establishment.",
+        heritageTitle: "A Heritage of Taste",
+        heritageDesc: "Since 1920, the Grand Hotel has been serving exquisite culinary masterpieces inspired by global traditions and local ingredients. Each dish is carefully crafted by our Michelin-starred chefs to elevate your dining experience.",
+        title: "Grand Hotel",
+        navStart: "Start",
+        navMenu: "Menu",
+        navCart: "Cart",
+        lblTrending: "Trending & Recommendations",
+        catAll: "All",
+        lblSpecial: "Today's Special",
+        lblStarters: "Starters",
+        lblLightCourses: "Light Courses",
+        lblMain: "Main Courses",
+        lblDesserts: "Desserts",
+        lblBeverages: "Beverages",
+        lblSetMeals: "Set Meals",
+        callService: "🛎️",
+        srvReqTitle: "Service Request",
+        srvReqText: "Do you require assistance from our staff?",
+        btnCancel: "Cancel",
+        btnCall: "Call Waiter",
+        toastSrv: "Wait! staff is on the way!",
+        toastAdd: "added to cart",
+        emptyCart: "Your cart is empty.",
+        lblTip: "Add Tip:",
+        lblTotal: "Total:",
+        btnCheckout: "Proceed to Checkout",
+        vegetarian: "Vegetarian",
+        vegan: "Vegan",
+        "no-onions": "No Onions",
+        onions: "Contains Onions",
+        "gluten-free": "Gluten-Free",
+        "lactose-free": "Lactose-Free",
+        "non-alcoholic": "Non-Alcoholic",
+        alcoholic: "Alcoholic",
+        halal: "Halal"
+    },
+    sv: {
+        lblIngredients: "Ingredienser",
+        lblAddToCart: "Lägg i kundvagn",
+        lblUnitPrice: "Styckpris:",
+        lblClickDetails: "Klicka för att se detaljer",
+        checkoutTitle: "Kassan",
+        checkoutConfirmMsg: "Är du säker på att du vill gå vidare med din beställning?",
+        btnConfirm: "Bekräfta",
+        orderConfirmedTitle: "Beställning Bekräftad",
+        orderConfirmedMsg: "Din mat tillagas med omsorg...",
+        btnReturnMenu: "Tillbaka till huvudmenyn",
+        heroDesc: "Upplev kulinarisk excellens och noggrann service på den finaste anläggningen.",
+        heritageTitle: "Smakens arv",
+        heritageDesc: "Sedan 1920 har Grand Hotel serverat utsökta kulinariska mästerverk inspirerade av globala traditioner och lokala ingredienser. Varje rätt är omsorgsfullt tillagad av våra Michelin-stjärniga kockar för att förhöja din matupplevelse.",
+        title: "Grand Hotel",
+        navStart: "Start",
+        navMenu: "Meny",
+        navCart: "Kundvagn",
+        lblTrending: "Trender & Rekommendationer",
+        catAll: "Alla",
+        lblSpecial: "Dagens Rätt",
+        lblStarters: "Förrätter",
+        lblLightCourses: "Lättare Rätter",
+        lblMain: "Huvudrätter",
+        lblDesserts: "Efterrätter",
+        lblBeverages: "Drycker",
+        lblSetMeals: "Menyer",
+        callService: "🛎️",
+        srvReqTitle: "Serviceförfrågan",
+        srvReqText: "Behöver du hjälp från vår personal?",
+        btnCancel: "Avbryt",
+        btnCall: "Ring Uppassare",
+        toastSrv: "Vänta! Personal är på väg!",
+        toastAdd: "tillagd i kundvagnen",
+        emptyCart: "Din kundvagn är tom.",
+        lblTip: "Lägg till dricks:",
+        lblTotal: "Totalt:",
+        btnCheckout: "Gå till kassan",
+        vegetarian: "Vegetarisk",
+        vegan: "Vegansk",
+        "no-onions": "Ingen Lök",
+        onions: "Innehåller Lök",
+        "gluten-free": "Glutenfri",
+        "lactose-free": "Laktosfri",
+        "non-alcoholic": "Alkoholfri",
+        alcoholic: "Alkoholhaltig",
+        halal: "Halal"
+    },
+    zh: {
+        lblIngredients: "配料",
+        lblAddToCart: "加入购物车",
+        lblUnitPrice: "单价:",
+        lblClickDetails: "点击查看详情",
+        checkoutTitle: "去结账",
+        checkoutConfirmMsg: "您确定要结算并继续您的订单吗？",
+        btnConfirm: "确认",
+        orderConfirmedTitle: "订单已确认",
+        orderConfirmedMsg: "您的美食正在精心准备中...",
+        btnReturnMenu: "返回主菜单",
+        heroDesc: "体验顶级餐厅的卓越美食与周到周全的服务。",
+        heritageTitle: "味觉的传承",
+        heritageDesc: "自1920年起，Grand Hotel 便致力于提供融合全球传统与当地食材的精心烹制佳肴。每一道菜均由我们的米其林星级主厨倾心打造，旨在为您升华用餐体验。",
+        title: "Grand Hotel",
+        navStart: "首页",
+        navMenu: "菜单",
+        navCart: "购物车",
+        lblTrending: "热门与推荐",
+        catAll: "全部",
+        lblSpecial: "今日特价",
+        lblStarters: "前菜",
+        lblLightCourses: "轻食",
+        lblMain: "主菜",
+        lblDesserts: "甜点",
+        lblBeverages: "饮料",
+        lblSetMeals: "套餐",
+        callService: "🛎️",
+        srvReqTitle: "呼叫服务",
+        srvReqText: "您需要我们的工作人员协助吗？",
+        btnCancel: "取消",
+        btnCall: "呼叫服务员",
+        toastSrv: "请稍等！服务员马上到！",
+        toastAdd: "已加入购物车",
+        emptyCart: "您的购物车是空的。",
+        lblTip: "添加小费:",
+        lblTotal: "总计:",
+        btnCheckout: "去结账",
+        vegetarian: "素食",
+        vegan: "纯素",
+        "no-onions": "不含洋葱",
+        onions: "含洋葱",
+        "gluten-free": "无麸质",
+        "lactose-free": "无乳糖",
+        "non-alcoholic": "无酒精",
+        alcoholic: "含酒精",
+        halal: "清真"
+    }
 };
 
 /**
@@ -45,7 +156,13 @@ class AppView {
     }
 
     getTranslation(key, lang) {
-        return I18N_DICT[key] || key;
+        if (I18N_DICT[lang] && I18N_DICT[lang][key]) {
+            return I18N_DICT[lang][key];
+        }
+        if (I18N_DICT['en'] && I18N_DICT['en'][key]) {
+            return I18N_DICT['en'][key];
+        }
+        return key;
     }
 
     translatePage(lang) {
@@ -123,7 +240,8 @@ class AppView {
         }
 
         const priceStr = String(dish.price).includes('€') ? dish.price : `${dish.price}€`;
-        const ingStr = dish.ingredients ? dish.ingredients.join(', ') : '';
+        const langIngredients = dish['ingredients_' + lang] || dish.ingredients;
+        const ingStr = langIngredients ? langIngredients.join(', ') : '';
 
         let imageHtml = '';
         if (dish.image) {
@@ -133,20 +251,24 @@ class AppView {
             imageHtml = `<div class="dish-modal-img" style="background: linear-gradient(45deg, #f0ece1, #e3ded1);"></div>`;
         }
 
+        const translatedName = dish['name_' + lang] || dish.name;
+        const translatedDesc = dish['description_' + lang] || dish.description;
+        const translatedStory = dish['story_' + lang] || dish.story;
+
         container.innerHTML = `
             <button class="dish-modal-close" id="btnDishModalClose">×</button>
             ${imageHtml}
             <div class="dish-modal-content">
                 <div class="dish-modal-header">
-                    <h2 class="dish-modal-title">${dish.name}</h2>
+                    <h2 class="dish-modal-title">${translatedName}</h2>
                     <div class="dish-modal-price">${priceStr}</div>
                 </div>
                 ${constraintsHtml}
-                <div class="dish-modal-desc" style="font-weight: 600; color: var(--text-main); font-size: 1.1rem; border-bottom: 1px solid rgba(0,0,0,0.05); padding-bottom: 12px;">${dish.description}</div>
-                ${dish.story ? `<div class="dish-modal-story" style="font-size: 1.05rem; color: #555; line-height: 1.6; margin-top: 15px;">${dish.story}</div>` : ''}
-                ${ingStr ? `<div class="dish-modal-ing" style="margin-top: 5px;"><strong>Ingredients:</strong><br/>${ingStr}</div>` : ''}
+                <div class="dish-modal-desc" style="font-weight: 600; color: var(--text-main); font-size: 1.1rem; border-bottom: 1px solid rgba(0,0,0,0.05); padding-bottom: 12px;">${translatedDesc}</div>
+                ${translatedStory ? `<div class="dish-modal-story" style="font-size: 1.05rem; color: #555; line-height: 1.6; margin-top: 15px;">${translatedStory}</div>` : ''}
+                ${ingStr ? `<div class="dish-modal-ing" style="margin-top: 5px;"><strong>${this.getTranslation('lblIngredients', lang)}:</strong><br/>${ingStr}</div>` : ''}
                 <button class="dish-modal-add-btn" id="btnDishModalAdd" data-dish='${JSON.stringify(dish).replace(/'/g, "&apos;")}'>
-                    Add to Cart
+                    ${this.getTranslation('lblAddToCart', lang)}
                 </button>
             </div>
         `;
@@ -249,9 +371,10 @@ class AppView {
             constraintsHtml += '</div>';
         }
 
+        const langIngredients = dish['ingredients_' + lang] || dish.ingredients;
         let ingredientsHtml = '';
-        if (dish.ingredients && Array.isArray(dish.ingredients)) {
-            ingredientsHtml = `<div class="ingredients-list"><em>${dish.ingredients.join(', ')}</em></div>`;
+        if (langIngredients && Array.isArray(langIngredients)) {
+            ingredientsHtml = `<div class="ingredients-list"><em>${langIngredients.join(', ')}</em></div>`;
         }
 
         let imageHtml = '';
@@ -266,10 +389,13 @@ class AppView {
 
         const priceStr = String(dish.price).includes('€') ? dish.price : `${dish.price}€`;
 
+        const translatedName = dish['name_' + lang] || dish.name;
+        const translatedDesc = dish['description_' + lang] || dish.description;
+
         card.innerHTML = `
             ${imageHtml}
-            <h3>${dish.name}</h3>
-            <p>${dish.description}</p>
+            <h3>${translatedName}</h3>
+            <p>${translatedDesc}</p>
             ${ingredientsHtml}
             ${constraintsHtml}
             ${originHtml}
@@ -367,14 +493,15 @@ class AppView {
         }
 
         cartData.forEach((item, index) => {
+            const translatedName = item['name_' + lang] || item.name;
             const priceStr = String(item.price).includes('€') ? item.price : `${item.price}€`;
             const q = item.quantity || 1;
             const itemEl = document.createElement('div');
             itemEl.className = 'cart-item';
             itemEl.innerHTML = `
-                <div class="cart-item-info" data-id="${item.id}" style="cursor: pointer;" title="Click to view details">
-                    <h4>${item.name}</h4>
-                    <p>Unit Price: ${priceStr}</p>
+                <div class="cart-item-info" data-id="${item.id}" style="cursor: pointer;" title="${this.getTranslation('lblClickDetails', lang)}">
+                    <h4>${translatedName}</h4>
+                    <p>${this.getTranslation('lblUnitPrice', lang)} ${priceStr}</p>
                 </div>
                 <div class="cart-item-quantity">
                     <button class="qty-btn qty-minus" data-index="${index}">-</button>
@@ -415,7 +542,7 @@ class AppView {
             // Calculate total quantity of items instead of just array length
             const totalCount = cartData.reduce((sum, item) => sum + (item.quantity || 1), 0);
 
-            const prefix = "Cart";
+            const prefix = this.getTranslation("navCart", lang);
             badge.innerText = totalCount > 0 ? `${prefix} (${totalCount})` : prefix;
         }
     }

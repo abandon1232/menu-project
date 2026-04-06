@@ -6,7 +6,7 @@ class MenuModel {
     constructor() {
         this.cart = JSON.parse(localStorage.getItem('grandHotelCart')) || [];
         this.menuData = {};
-        this.language = 'en'; 
+        this.language = sessionStorage.getItem('grandHotelLang') || 'en';
         this.tipRate = parseFloat(localStorage.getItem('grandHotelTip')) || 0;
     }
 
@@ -37,6 +37,8 @@ class MenuModel {
             this.cart.push({
                 id: item.id || Date.now().toString(),
                 name: item.name,
+                name_zh: item.name_zh,
+                name_sv: item.name_sv,
                 price: item.price,
                 quantity: 1
             });
@@ -83,7 +85,7 @@ class MenuModel {
 
     setLanguage(lang) {
         this.language = lang;
-        localStorage.setItem('grandHotelLang', lang);
+        sessionStorage.setItem('grandHotelLang', lang);
     }
 
     getLanguage() {

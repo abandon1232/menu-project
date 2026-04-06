@@ -16,7 +16,27 @@
       "gluten-free"
     ],
     "image": "images/lobster.jpg",
-    "story": "Indulge in our exquisite Atlantic lobster, sustainably sourced from the cold, pristine waters off the coast of Brittany. Slow-poached to absolute perfection in artisanal churned butter for an incredibly tender texture, it is finished with a vibrant, citrusy lemon butter sauce. This masterpiece embodies the pinnacle of seafood fine dining."
+    "story": "Indulge in our exquisite Atlantic lobster, sustainably sourced from the cold, pristine waters off the coast of Brittany. Slow-poached to absolute perfection in artisanal churned butter for an incredibly tender texture, it is finished with a vibrant, citrusy lemon butter sauce. This masterpiece embodies the pinnacle of seafood fine dining.",
+    "name_zh": "黄油水煮龙虾",
+    "name_sv": "Smörpocherad Hummer",
+    "description_zh": "大西洋龙虾佐以柠檬黄油酱。",
+    "description_sv": "Atlantkusthummer serverad med citron- och smörsås.",
+    "story_zh": "尽情享受我们精妙的大西洋龙虾，可持续捕捞自布列塔尼海岸冰冷纯净的水域。在手工搅打的黄油中慢煮至完美，使其拥有令人难以置信的鲜嫩口感，最后淋上充满活力的柑橘柠檬黄油酱。这道杰作体现了海鲜高级餐饮的巅峰。",
+    "story_sv": "Njut av vår utsökta Atlantkusthummer, hållbart fångad från de kalla, orörda vattnen utanför Bretagnes kust. Långsamt pocherad till absolut perfektion i hantverksmässigt kärnat smör för en otroligt mör textur, och avslutas med en livfull, citrusaktig citron- och smörsås. Detta mästerverk förkroppsligar höjdpunkten av finare skaldjursmiddagar.",
+    "ingredients_zh": [
+      "龙虾",
+      "黄油",
+      "柠檬",
+      "大蒜",
+      "海盐"
+    ],
+    "ingredients_sv": [
+      "hummer",
+      "smör",
+      "citron",
+      "vitlök",
+      "havssalt"
+    ]
   },
   {
     "id": 2,
@@ -37,7 +57,27 @@
       "gluten-free"
     ],
     "image": "images/risotto.jpg",
-    "story": "A legendary creation from our head chef. We slow-cook premium Arborio rice in a rich, velvety broth, folding in the finest Parmigiano-Reggiano and imported European butter. Finally, it is generously topped with freshly shaved black truffles to deliver an intoxicating, earthy aroma that lingers on the palate."
+    "story": "A legendary creation from our head chef. We slow-cook premium Arborio rice in a rich, velvety broth, folding in the finest Parmigiano-Reggiano and imported European butter. Finally, it is generously topped with freshly shaved black truffles to deliver an intoxicating, earthy aroma that lingers on the palate.",
+    "name_zh": "黑松露烩饭",
+    "name_sv": "Tryffelrisotto",
+    "description_zh": "浓郁干酪烩饭配黑松露。",
+    "description_sv": "Krämig risotto med svart tryffel och parmesan.",
+    "story_zh": "我们的主厨带来的传奇之作。我们将顶级阿博里奥大米在浓郁柔滑的肉汤中慢火熬煮，并拌入最上乘的帕马森-雷吉亚诺奶酪和进口欧洲黄油。最后，在上面大量撒上新鲜刨切的黑松露，带来令人陶醉的泥土芬芳，在味蕾上久久萦绕。",
+    "story_sv": "En legendarisk skapelse från vår köksmästare. Vi långkokar förstklassigt Arborioris i en rik, sammetslen buljong, och vänder ner den finaste Parmigiano-Reggiano och importerat europeiskt smör. Slutligen toppas den generöst med nyhyvlad svart tryffel för att leverera en berusande, jordig arom som dröjer sig kvar i gommen.",
+    "ingredients_zh": [
+      "阿博里奥米",
+      "黑松露",
+      "帕马森奶酪",
+      "黄油",
+      "白葡萄酒"
+    ],
+    "ingredients_sv": [
+      "arborioris",
+      "svart tryffel",
+      "parmesan",
+      "smör",
+      "vitt vin"
+    ]
   },
   {
     "id": 3,
@@ -55,7 +95,25 @@
       "gluten-free"
     ],
     "image": "images/scallops.jpg",
-    "story": "Harvested fresh and deliberately seared to achieve a beautiful golden-brown crust while maintaining a buttery, translucent center. These delicate sea scallops rest elegantly on a bed of silky smooth, slow-roasted cauliflower purée, garnished with finely chopped chives and a drizzle of premium olive oil."
+    "story": "Harvested fresh and deliberately seared to achieve a beautiful golden-brown crust while maintaining a buttery, translucent center. These delicate sea scallops rest elegantly on a bed of silky smooth, slow-roasted cauliflower purée, garnished with finely chopped chives and a drizzle of premium olive oil.",
+    "name_zh": "香煎带子",
+    "name_sv": "Halstrad Pilgrimsmussla",
+    "description_zh": "金黄带子配花椰菜泥。",
+    "description_sv": "Gyllene pilgrimsmusslor med blomkålspuré.",
+    "story_zh": "新鲜捕捞并经过精心煎制，以获得美丽的焦糖色外壳，同时保持如黄油般半透明的鲜嫩内心。这些精致的海螺优雅地躺在丝滑的慢烤花椰菜泥上，最后点缀以切碎的细香葱并淋以优质橄榄油。",
+    "story_sv": "Nyskördade och noggrant halstrade för att uppnå en vacker gyllenbrun yta samtidigt som de behåller ett smörigt, genomskinligt inre. Dessa delikata havsmusslor vilar elegant på en bädd av silkeslen, långrostad blomkålspuré, garnerad med finhackad gräslök och en skvätt premiumolivolja.",
+    "ingredients_zh": [
+      "扇贝",
+      "花椰菜",
+      "黄油",
+      "细香葱"
+    ],
+    "ingredients_sv": [
+      "pilgrimsmusslor",
+      "blomkål",
+      "smör",
+      "gräslök"
+    ]
   },
   {
     "id": 4,
@@ -73,7 +131,25 @@
       "gluten-free"
     ],
     "image": "images/filet.jpg",
-    "story": "Experience the ultimate expression of culinary luxury constraint. Our center-cut beef tenderloin is dry-aged for 28 days to intensify its natural flavors, pan-seared to your exact preference, and draped in a profound, velvety red wine reduction simmered for 48 hours. A true carnivore’s delight."
+    "story": "Experience the ultimate expression of culinary luxury constraint. Our center-cut beef tenderloin is dry-aged for 28 days to intensify its natural flavors, pan-seared to your exact preference, and draped in a profound, velvety red wine reduction simmered for 48 hours. A true carnivore’s delight.",
+    "name_zh": "菲力牛排",
+    "name_sv": "Oxfilé",
+    "description_zh": "红酒浓汁佐上等牛里脊。",
+    "description_sv": "Förstklassig oxfilé med rödvinssås.",
+    "story_zh": "体验极致的烹饪奢华之感。我们的中段牛里脊经过 28 天干式熟成以浓缩其天然风味，经过精确的平底锅煎制以达到您的喜好，并淋上经过 48 小时慢炖的浓郁丝滑红酒酱汁。真正的食肉者之悦。",
+    "story_sv": "Upplev det ultimata uttrycket för kulinarisk lyx. Vår mittskurna oxfilé är torrmörad i 28 dagar för att intensifiera sina naturliga smaker, pannstekt till din exakta preferens, och draperad i en djup, sammetslen rödvinssås simmrad i 48 timmar. En sann köttälskarens fröjd.",
+    "ingredients_zh": [
+      "牛里脊",
+      "红酒",
+      "黄油",
+      "百里香"
+    ],
+    "ingredients_sv": [
+      "oxfilé",
+      "rödvin",
+      "smör",
+      "timjan"
+    ]
   },
   {
     "id": 5,
@@ -89,11 +165,29 @@
     "category": "starters",
     "dietary": [
       "vegetarian",
-      "gluten-free", 
+      "gluten-free",
       "halal"
     ],
     "image": "images/burrata.jpg",
-    "story": "A celebration of simple, vibrant Mediterranean flavors. We air-freight fresh, creamy Burrata cheese directly from Puglia, Italy, serving it alongside sun-ripened, intensely sweet heirloom tomatoes. Finished with hand-torn basil leaves, sea salt, and a generous pour of cold-pressed, single-estate extra virgin olive oil."
+    "story": "A celebration of simple, vibrant Mediterranean flavors. We air-freight fresh, creamy Burrata cheese directly from Puglia, Italy, serving it alongside sun-ripened, intensely sweet heirloom tomatoes. Finished with hand-torn basil leaves, sea salt, and a generous pour of cold-pressed, single-estate extra virgin olive oil.",
+    "name_zh": "布拉塔芝士沙拉",
+    "name_sv": "Burratasallad",
+    "description_zh": "香浓芝士配传家宝番茄。",
+    "description_sv": "Krämig burrata med kulturarvstomater.",
+    "story_zh": "这是一场向简单而充满活力的地中海风味致敬的盛宴。我们将新鲜、奶油般浓郁的布拉塔芝士从意大利普利亚空运而来，搭配阳光下自然成熟、极其香甜的传家宝番茄。最后撒上手撕的罗勒叶、海盐和大量冷压特级初榨橄榄油。",
+    "story_sv": "Ett firande av enkla, levande medelhavssmaker. Vi flygfraktar färsk, krämig Burrata-ost direkt från Apulien, Italien, och serverar den tillsammans med solmogna, intensivt söta kulturarvstomater. Avslutas med handrivna basilikablad, havssalt och en generös skvätt kallpressad, extra jungfruolivolja.",
+    "ingredients_zh": [
+      "布拉塔奶酪",
+      "传家宝番茄",
+      "罗勒",
+      "橄榄油"
+    ],
+    "ingredients_sv": [
+      "burrata-ost",
+      "kulturarvstomater",
+      "basilika",
+      "olivolja"
+    ]
   },
   {
     "id": 6,
@@ -109,11 +203,29 @@
     "category": "lightCourses",
     "dietary": [
       "vegetarian",
-      "lactose-free", 
+      "lactose-free",
       "halal"
     ],
     "image": "images/avocado_toast.jpg",
-    "story": "Elevating a modern classic to new heights. We use our house-baked, 72-hour fermented sourdough as the foundation, topped with a generous layer of perfectly ripe, smashed Hass avocados. Two exquisitely poached farm-fresh eggs crown the dish, finished with vibrant chili flakes to add a subtle, warming kick."
+    "story": "Elevating a modern classic to new heights. We use our house-baked, 72-hour fermented sourdough as the foundation, topped with a generous layer of perfectly ripe, smashed Hass avocados. Two exquisitely poached farm-fresh eggs crown the dish, finished with vibrant chili flakes to add a subtle, warming kick.",
+    "name_zh": "牛油果吐司",
+    "name_sv": "Avokadotoast",
+    "description_zh": "酸种面包配捣碎的牛油果及水波蛋。",
+    "description_sv": "Surdegstoast toppad med krossad avokado.",
+    "story_zh": "将现代经典提升到全新高度。我们使用自制、发酵 72 小时的酸种面包作为基础，铺上厚厚一层完美成熟并捣碎的哈斯牛油果。最后放上两只精致的水波农场鲜蛋，并撒上一层辣椒碎，增添一种微妙的温暖辛辣感。",
+    "story_sv": "Lyfter en modern klassiker till nya höjder. Vi använder vår hembakade, 72-timmars jästa surdeg som grund, toppad med ett generöst lager av perfekt mogna, mosade Hass-avokador. Två utsökt pocherade gårdstacka ägg kröner rätten, avslutad med levande chiliflakes för att ge en subtil, värmande kick.",
+    "ingredients_zh": [
+      "酸种面包",
+      "牛油果",
+      "鸡蛋",
+      "辣椒碎"
+    ],
+    "ingredients_sv": [
+      "surdegsbröd",
+      "avokado",
+      "ägg",
+      "chiliflakes"
+    ]
   },
   {
     "id": 7,
@@ -131,11 +243,31 @@
     "dietary": [
       "vegan",
       "lactose-free",
-      "gluten-free", 
+      "gluten-free",
       "halal"
     ],
     "image": "images/curry.jpg",
-    "story": "A vibrant, aromatic journey to the East. Our rich, creamy coconut milk base is infused with a meticulously hand-pounded blend of authentic Thai curry spices and fresh lemongrass. We simmer a colorful array of crisp, roasted market vegetables in this fragrant broth, served alongside fragrant, perfectly steamed jasmine rice."
+    "story": "A vibrant, aromatic journey to the East. Our rich, creamy coconut milk base is infused with a meticulously hand-pounded blend of authentic Thai curry spices and fresh lemongrass. We simmer a colorful array of crisp, roasted market vegetables in this fragrant broth, served alongside fragrant, perfectly steamed jasmine rice.",
+    "name_zh": "全素椰奶咖喱",
+    "name_sv": "Vegansk Kokoscurry",
+    "description_zh": "浓郁椰奶咖喱配烤蔬菜。",
+    "description_sv": "Rik kokosmjölkscurry med rostade grönsaker.",
+    "story_zh": "一场充满活力的东方芬芳之旅。我们浓郁醇厚的椰奶汤底中注入了精心手工捣碎的地道泰国咖喱香料和新鲜柠檬草。色彩缤纷的酥脆烤蔬菜在这个芬芳的汤底中慢炖，并配以完美蒸熟的茉莉香米。",
+    "story_sv": "En livfull, aromatisk resa till Öst. Vår rika, krämiga kokosmjölksbas är infunderad med en noggrant handstött blandning av autentiska thailändska currykryddor och färskt citrongräs. Vi sjuder en färgglad blandning av krispiga, rostade marknadsgrönsaker i denna doftande buljong, serverad vid sidan av doftande, perfekt ångat jasminris.",
+    "ingredients_zh": [
+      "椰奶",
+      "咖喱酱",
+      "彩椒",
+      "西葫芦",
+      "茉莉香米"
+    ],
+    "ingredients_sv": [
+      "kokosmjölk",
+      "currypasta",
+      "paprika",
+      "zucchini",
+      "jasminris"
+    ]
   },
   {
     "id": 8,
@@ -150,11 +282,29 @@
     ],
     "category": "desserts",
     "dietary": [
-      "gluten-free", 
+      "gluten-free",
       "halal"
     ],
     "image": "images/fondant.jpg",
-    "story": "The ultimate decadent finale. Our signature chocolate fondant is baked exactly to order, featuring a delicate cake exterior that yields to a rushing center of warm, molten dark chocolate. Dusted with a snow-like layer of powdered sugar, it provides a dramatic, melt-in-your-mouth experience that is purely unforgettable."
+    "story": "The ultimate decadent finale. Our signature chocolate fondant is baked exactly to order, featuring a delicate cake exterior that yields to a rushing center of warm, molten dark chocolate. Dusted with a snow-like layer of powdered sugar, it provides a dramatic, melt-in-your-mouth experience that is purely unforgettable.",
+    "name_zh": "熔岩巧克力蛋糕",
+    "name_sv": "Chokladfondant",
+    "description_zh": "温热熔岩巧克力中心。",
+    "description_sv": "Varm chokladkaka med rinnande mitt.",
+    "story_zh": "终极的奢华结局。我们的招牌巧克力熔岩蛋糕完全按单现烤，拥有精致的蛋糕外壳和温暖如流水的深色巧克力核心。表面撒上如雪般的糖粉，提供令人难忘、入口即化的戏剧性体验。",
+    "story_sv": "Den ultimata decadenta finalen. Vår signaturchokladfondant bakas exakt på beställning, med ett delikat kakyttre som ger vika för en forsande mitt av varm, smält mörk choklad. Pudrad med ett snöliknande lager av florsocker ger det en dramatisk upplevelse som smälter i munnen och är helt oförglömlig.",
+    "ingredients_zh": [
+      "黑巧克力",
+      "黄油",
+      "鸡蛋",
+      "糖"
+    ],
+    "ingredients_sv": [
+      "mörk choklad",
+      "smör",
+      "ägg",
+      "socker"
+    ]
   },
   {
     "id": 9,
@@ -172,7 +322,25 @@
       "non-alcoholic"
     ],
     "image": "images/lemonade.jpg",
-    "story": "Refreshment redefined. We craft this sparkling beverage using hand-squeezed, sun-ripened Amalfi lemons, lightly sweetened with raw agave and topped with sparkling mineral water. Served in a tall, frosty glass with generous ice cubes and freshly bruised mint leaves for an immediately revitalizing burst of citrus."
+    "story": "Refreshment redefined. We craft this sparkling beverage using hand-squeezed, sun-ripened Amalfi lemons, lightly sweetened with raw agave and topped with sparkling mineral water. Served in a tall, frosty glass with generous ice cubes and freshly bruised mint leaves for an immediately revitalizing burst of citrus.",
+    "name_zh": "气泡柠檬水",
+    "name_sv": "Mousserande Citron🍋vatten",
+    "description_zh": "鲜榨鲜柠配矿泉水。",
+    "description_sv": "Färskpressad citron med mineralvatten.",
+    "story_zh": "颠覆认知的清爽感。我们自制这款气泡饮品使用手工榨取、阳光下成熟的阿马尔菲柠檬，并用生龙舌兰糖浆轻微增加甜味，再加入气泡矿泉水。盛装在冰镇的长杯中，加入足量冰块和新鲜捣碎的薄荷叶，瞬间爆发出令人振奋的柑橘风味。",
+    "story_sv": "Uppfriskning omdefinierad. Vi hantverkar denna mousserande dryck av handpressade, solmogna Amalficitroner, lätt sötad med rå agave och toppad med kolsyrat mineralvatten. Serveras i ett högt, frostat glas med generösa isbitar och nyskördade myntablad för en omedelbart vitaliserande explosion av citrus.",
+    "ingredients_zh": [
+      "柠檬汁",
+      "气泡水",
+      "薄荷",
+      "糖"
+    ],
+    "ingredients_sv": [
+      "citronsaft",
+      "kolsyrat vatten",
+      "mynta",
+      "socker"
+    ]
   },
   {
     "id": 10,
@@ -188,7 +356,21 @@
       "alcoholic"
     ],
     "image": "images/redwine.jpg",
-    "story": "A meticulously curated selection from our private cellar. This elegant house red boasts deep, complex notes of dark cherry, toasted oak, and a hint of vanilla. With its velvety tannins and remarkably smooth finish, it is designed to pair flawlessly with our rich, hearty main courses."
+    "story": "A meticulously curated selection from our private cellar. This elegant house red boasts deep, complex notes of dark cherry, toasted oak, and a hint of vanilla. With its velvety tannins and remarkably smooth finish, it is designed to pair flawlessly with our rich, hearty main courses.",
+    "name_zh": "招牌红酒",
+    "name_sv": "Husets Röda",
+    "description_zh": "一杯精选招牌红酒。",
+    "description_sv": "Ett glas av vår finaste rödvin.",
+    "story_zh": "我们私人酒窖中精心挑选的藏酒。这款优雅的招牌红酒具有黑樱桃、烤橡木和一丝香草带来的深沉而复杂的风味。凭借其天鹅绒般的单宁及极为顺滑的余韵，它的宗旨是能与我们丰富美味的主菜完美搭配。",
+    "story_sv": "Ett noggrant utvalt urval från vår privata vinkällare. Detta eleganta husets röda stoltserar med djupa, komplexa toner av mörka körsbär, rostad ek och en antydan till vanilj. Med sina sammetslena tanniner och en anmärkningsvärt mjuk avslutning, är det designat att passa felfritt med våra rika och matiga huvudrätter.",
+    "ingredients_zh": [
+      "红葡萄",
+      "亚硫酸盐"
+    ],
+    "ingredients_sv": [
+      "röda vindruvor",
+      "sulfiter"
+    ]
   },
   {
     "id": 11,
@@ -206,7 +388,25 @@
       "onions"
     ],
     "image": "images/onionsoup.jpg",
-    "story": "A comforting bowl of Parisian tradition. We slowly caramelize sweet onions for over six hours until they form a deep, mahogany-colored, umami-rich beef broth. The soup is then poured into a traditional ramekin, topped with a thick slice of artisanal baguette, and smothered in bubbly, deeply browned Gruyère cheese."
+    "story": "A comforting bowl of Parisian tradition. We slowly caramelize sweet onions for over six hours until they form a deep, mahogany-colored, umami-rich beef broth. The soup is then poured into a traditional ramekin, topped with a thick slice of artisanal baguette, and smothered in bubbly, deeply browned Gruyère cheese.",
+    "name_zh": "法式洋葱汤",
+    "name_sv": "Fransk Löksoppa",
+    "description_zh": "经典洋葱汤配格鲁耶尔奶酪面包。",
+    "description_sv": "Klassisk soppa med Gruyèrecrouton.",
+    "story_zh": "一碗承载巴黎传统的慰藉。我们将甜洋葱进行超过 6 小时慢火焦糖化处理，直至它们在浓郁鲜美的牛肉汤底中呈现深邃的红褐色。然后将汤倒入传统的模具中，表面放上一片厚实的手工法棍面包，并铺满烤至冒泡诱人的金黄色格鲁耶尔奶酪。",
+    "story_sv": "En tröstande skål med parisisk tradition. Vi karamelliserar långsamt söta lökar i över sex timmar tills de bildar en djup, mahognyfärgad och umamirik nötbuljong. Soppan hälls sedan i en traditionell form, toppas med en tjock skiva hantverksbaguette och täcks i bubblande, djupt brun ost av typen Gruyère.",
+    "ingredients_zh": [
+      "牛肉清汤",
+      "洋葱",
+      "格鲁耶尔奶酪",
+      "法棍"
+    ],
+    "ingredients_sv": [
+      "nötbuljong",
+      "lök",
+      "gruyèreost",
+      "baguette"
+    ]
   },
   {
     "id": 12,
@@ -223,11 +423,29 @@
     "dietary": [
       "vegan",
       "gluten-free",
-      "lactose-free", 
+      "lactose-free",
       "halal"
     ],
     "image": "images/quinoa.jpg",
-    "story": "Nourishment presented elegantly. A hearty base of fluffy, protein-rich quinoa is beautifully arranged with caramelized, oven-roasted sweet potatoes and crisp, massage-tenderized baby kale. It is all brought together by a rich, house-made tahini dressing, delivering a perfect harmony of earthy, sweet, and nutty flavors."
+    "story": "Nourishment presented elegantly. A hearty base of fluffy, protein-rich quinoa is beautifully arranged with caramelized, oven-roasted sweet potatoes and crisp, massage-tenderized baby kale. It is all brought together by a rich, house-made tahini dressing, delivering a perfect harmony of earthy, sweet, and nutty flavors.",
+    "name_zh": "藜麦能量碗",
+    "name_sv": "Quinoaskål",
+    "description_zh": "健康藜麦搭配烤红薯与散叶甘蓝。",
+    "description_sv": "Nyttig quinoa blandad med sötpotatis.",
+    "story_zh": "优雅展现的营养佳肴。以松软且富含蛋白质的藜麦作为营养打底，精美地搭配焦糖烤红薯以及经过按摩软化的脆嫩羽衣甘蓝。全由浓郁的自制芝麻酱将其风味融合，完美展现了泥土芳香、香甜与坚果醇香。",
+    "story_sv": "Näring som presenteras elegant. En robust bas av fluffiga, proteinrika quinoa är vackert arrangerad med karamelliserad, ugnsrostad sötpotatis och fräsch, massagemörad babygrönkål. Allt knyts samman av en rik, husgjord tahinidressing som levererar en perfekt harmoni av jordiga, söta och nötliknande smaker.",
+    "ingredients_zh": [
+      "藜麦",
+      "红薯",
+      "羽衣甘蓝",
+      "芝麻酱"
+    ],
+    "ingredients_sv": [
+      "quinoa",
+      "sötpotatis",
+      "grönkål",
+      "tahindressing"
+    ]
   },
   {
     "id": 13,
@@ -246,7 +464,25 @@
       "lactose-free"
     ],
     "image": "images/duck.jpg",
-    "story": "A masterpiece of French gastronomy prepared through the time-honored tradition of slow-cooking. The duck leg is cured overnight with sea salt and fresh herbs, then gently braised in its own rich fat until meltingly tender. Pan-seared to yield a shatteringly crisp skin, it is served alongside golden, herb-roasted potatoes."
+    "story": "A masterpiece of French gastronomy prepared through the time-honored tradition of slow-cooking. The duck leg is cured overnight with sea salt and fresh herbs, then gently braised in its own rich fat until meltingly tender. Pan-seared to yield a shatteringly crisp skin, it is served alongside golden, herb-roasted potatoes.",
+    "name_zh": "油封鸭腿",
+    "name_sv": "Ankconfit",
+    "description_zh": "慢炖鸭腿配香脆酥皮。",
+    "description_sv": "Långkokt anklår med krispigt skinn.",
+    "story_zh": "传承时间考验慢炖技法的法式美食杰作。鸭腿使用海盐及新鲜香草腌制过夜，随后浸泡在自身丰富的油脂中慢火炖煮至入口即化的鲜嫩。再经过煎制获得极度酥脆的外皮，佐以金黄色的香草烤土豆上桌。",
+    "story_sv": "Ett mästerverk inom fransk gastronomi tillagat genom den hedrade traditionen med långkok. Anklåret torkas över natten med havssalt och färska örter, och bräseras sedan försiktigt i sitt eget rika fett tills det smälter och blir oerhört mört. Stekt för att ge ett knaprig skinn och serveras tillsammans med gyllene, örtrostad potatis.",
+    "ingredients_zh": [
+      "鸭腿",
+      "鸭油",
+      "大蒜",
+      "百里香"
+    ],
+    "ingredients_sv": [
+      "anklår",
+      "ankfett",
+      "vitlök",
+      "timjan"
+    ]
   },
   {
     "id": 14,
@@ -261,9 +497,31 @@
       "vanilla cream"
     ],
     "category": "desserts",
-    "dietary": ["halal"],
+    "dietary": [
+      "halal"
+    ],
     "image": "images/appletart.jpg",
-    "story": "A stunning homage to the French countryside. Featuring wafer-thin slices of tart, crisp apples beautifully fanned over a buttery, flaky puff pastry crust that shatters perfectly at the touch of a fork. Served warm from the oven alongside a generous scoop of artisanal vanilla bean cream for a rich, comforting finish."
+    "story": "A stunning homage to the French countryside. Featuring wafer-thin slices of tart, crisp apples beautifully fanned over a buttery, flaky puff pastry crust that shatters perfectly at the touch of a fork. Served warm from the oven alongside a generous scoop of artisanal vanilla bean cream for a rich, comforting finish.",
+    "name_zh": "法式苹果塔",
+    "name_sv": "Äppeltårta",
+    "description_zh": "经典法式苹果起酥塔配香草奶油。",
+    "description_sv": "Klassisk fransk äppelpaj med vaniljkräm.",
+    "story_zh": "向法国乡村致以迷人的敬意。将薄如蝉翼的爽脆酸苹果片如同打开的折扇般精美地铺在牛油风味浓郁、片片酥脆的起酥面皮上，用叉子轻触便能完美地崩裂。从烤箱中趁热取出，并与一大勺手工制作的香草豆奶油冰淇淋完美结合，带来丰富的抚慰之感。",
+    "story_sv": "En bländande hyllning till den franska landsbygden. Består av papperstunna skivor av syrliga, krispiga äpplen vackert utspridda över ett smörigt, sprött smördegskal som faller isär perfekt vid beröring med gaffeln. Serveras varm från ugnen tillsammans med en generös kula av hantverksmässig vaniljböna grädde för en rik, tröstande avslutning.",
+    "ingredients_zh": [
+      "苹果",
+      "起酥面团",
+      "黄油",
+      "糖",
+      "香草奶油"
+    ],
+    "ingredients_sv": [
+      "äpplen",
+      "smördeg",
+      "smör",
+      "socker",
+      "vaniljkräm"
+    ]
   },
   {
     "id": 15,
@@ -281,7 +539,25 @@
       "alcoholic"
     ],
     "image": "images/ipa.jpg",
-    "story": "For the discerning craft beer enthusiast. This locally brewed India Pale Ale pours a radiant golden amber, crowned with a thick, frothy head. It delivers a bold, upfront bouquet of citrus and pine hops, balanced by a sturdy malt backbone, ending with a crisp, refreshing, and satisfyingly bitter finish."
+    "story": "For the discerning craft beer enthusiast. This locally brewed India Pale Ale pours a radiant golden amber, crowned with a thick, frothy head. It delivers a bold, upfront bouquet of citrus and pine hops, balanced by a sturdy malt backbone, ending with a crisp, refreshing, and satisfyingly bitter finish.",
+    "name_zh": "精酿IPA啤酒",
+    "name_sv": "Hantverks-IPA",
+    "description_zh": "清爽酒花风味的本地IPA。",
+    "description_sv": "Humlig och uppfriskande lokal Indian Pale Ale.",
+    "story_zh": "为有品味的精酿啤酒爱好者打造。这款本地酿造的印度淡色麦酒呈现出光芒四射的琥珀金色泽，表面有着厚密细致的酒泡。它带来明亮、奔放的柑橘同松针啤酒花香气，并在强壮的麦芽风味中达到平衡，以一种清脆、爽口、令人愉悦的苦味结尾。",
+    "story_sv": "För den medvetna ölfantasten. Denna lokalt bryggda India Pale Ale har en strålande gyllene bärnstensfärg, krönt med ett tjockt, skummigt huvud. Den levererar en djärv doftbukett av citrus och kottlika humle, balanserad av en stadig maltkärna, och avslutas med en krispig, uppfriskande och tillfredsställande beska.",
+    "ingredients_zh": [
+      "水",
+      "麦芽",
+      "啤酒花",
+      "酵母"
+    ],
+    "ingredients_sv": [
+      "vatten",
+      "malt",
+      "humle",
+      "jäst"
+    ]
   },
   {
     "id": 16,
@@ -295,9 +571,29 @@
       "anchovies"
     ],
     "category": "starters",
-    "dietary": ["halal"],
+    "dietary": [
+      "halal"
+    ],
     "image": "images/caesar.jpg",
-    "story": "Our uncompromising take on the legendary salad. We use only the crispest inner leaves of Romaine lettuce, tossed in a pungent, creamy, house-made dressing featuring authentic Spanish anchovies and roasted garlic. Finished with oversized, garlic-rubbed artisan croutons and generous shavings of aged Parmigiano-Reggiano."
+    "story": "Our uncompromising take on the legendary salad. We use only the crispest inner leaves of Romaine lettuce, tossed in a pungent, creamy, house-made dressing featuring authentic Spanish anchovies and roasted garlic. Finished with oversized, garlic-rubbed artisan croutons and generous shavings of aged Parmigiano-Reggiano.",
+    "name_zh": "经典凯撒沙拉",
+    "name_sv": "Klassisk Caesarsallad",
+    "description_zh": "脆爽罗曼生菜配巴马臣奶酪及面包糠。",
+    "description_sv": "Krispig romansallad, parmesan, krutonger.",
+    "story_zh": "我们对这款传奇沙拉的不妥协诠释。只选用最清脆的罗曼生菜内芯，与包含地道西班牙凤尾鱼和烤大蒜的浓郁自制沙拉酱拌匀。最后加上涂有大蒜酱的超大块手作烤面包丁以及毫不吝啬的陈年帕马森-雷吉亚诺奶酪切片。",
+    "story_sv": "Vår oöverträffade version av den legendariska salladen. Vi använder endast de krispigaste innerbladen av romansallad, svängda i en krämig husgjord dressing med äkta spanska ansjovis och rostad vitlök. Avslutas med överdimensionerade, vitlöksgnuggade hantverkskrutonger och generösa spån av lagrad Parmigiano-Reggiano.",
+    "ingredients_zh": [
+      "罗曼生菜",
+      "帕马森奶酪",
+      "面包丁",
+      "凤尾鱼"
+    ],
+    "ingredients_sv": [
+      "romansallad",
+      "parmesan",
+      "krutonger",
+      "ansjovis"
+    ]
   },
   {
     "id": 17,
@@ -312,11 +608,29 @@
     ],
     "category": "main",
     "dietary": [
-      "gluten-free", 
+      "gluten-free",
       "halal"
     ],
     "image": "images/salmon.jpg",
-    "story": "A premium cut of thick, sustainably caught Atlantic salmon, expertly grilled to achieve a delicate, smoky char while remaining remarkably moist inside. Plated effortlessly over vibrant, crisp-tender charred asparagus spears and finished with a bright squeeze of fresh lemon, representing pure, unadulterated flavor."
+    "story": "A premium cut of thick, sustainably caught Atlantic salmon, expertly grilled to achieve a delicate, smoky char while remaining remarkably moist inside. Plated effortlessly over vibrant, crisp-tender charred asparagus spears and finished with a bright squeeze of fresh lemon, representing pure, unadulterated flavor.",
+    "name_zh": "炭烤三文鱼",
+    "name_sv": "Grillad Lax",
+    "description_zh": "新鲜大西洋三文鱼配芦笋。",
+    "description_sv": "Färsk Atlantlax med sparris.",
+    "story_zh": "这是一块精挑细选的高端厚切大西洋三文鱼肉，经过炉烤获得美妙焦香外层的同时内部依旧绝妙多汁。将它们轻松随性地摆在鲜绿脆爽的炭火烤芦笋上，最后撒上酸甜明亮的鲜榨柠檬汁，完美呈现了纯粹不经矫饰的绝佳风味。",
+    "story_sv": "En premiumskuren, hållbart fångad Atlantlax, omsorgsfullt grillas för att uppnå en delikat, rökig yta men förblir ändå anmärkningsvärt fuktig inuti. Upplagd utan ansträngning över levande, krispigt ömt grillade sparris och avslutad med ett ljust press av färsk citron som representerar en ren oavbruten smak.",
+    "ingredients_zh": [
+      "三文鱼",
+      "芦笋",
+      "柠檬",
+      "黄油"
+    ],
+    "ingredients_sv": [
+      "lax",
+      "sparris",
+      "citron",
+      "smör"
+    ]
   },
   {
     "id": 18,
@@ -332,11 +646,29 @@
     "category": "starters",
     "dietary": [
       "vegetarian",
-      "gluten-free", 
+      "gluten-free",
       "halal"
     ],
     "image": "images/mushroom.jpg",
-    "story": "Deep, earthy, and supremely comforting. We slow-roast a blend of wild, seasonal forest mushrooms to concentrate their intense flavors, then blend them smoothly with rich, heavy cream and homemade vegetable stock. Each bowl is elegantly garnished with fresh sprigs of thyme and a swirl of truffle oil."
+    "story": "Deep, earthy, and supremely comforting. We slow-roast a blend of wild, seasonal forest mushrooms to concentrate their intense flavors, then blend them smoothly with rich, heavy cream and homemade vegetable stock. Each bowl is elegantly garnished with fresh sprigs of thyme and a swirl of truffle oil.",
+    "name_zh": "蘑菇浓汤",
+    "name_sv": "Svampsoppa",
+    "description_zh": "浓香野生蘑菇汤。",
+    "description_sv": "Krämig soppa med rostad vildsvamp.",
+    "story_zh": "深沉、带有泥土芬芳并具备无上的舒适感。我们混合同慢烤野生季节性森林蘑菇来浓缩并升华其强烈的鲜味，继而将其与浓厚的奶油以及自家准备的高汤平滑而饱满地融为一体。每一碗上碟时必定装饰清新的百里香与圈旋形松露油。",
+    "story_sv": "Djup, jordig och otroligt tröstande. Vi långrostar en blandning av vilda, säsongsbetonade skogssvampar för att koncentrera deras intensiva smaker, och blandar dem sedan smidigt med rik, tung grädde och hemlagad grönsaksbuljong. Varje skål är elegant garnerad med en liten kvist av timjan och en skvätt tryffelolja.",
+    "ingredients_zh": [
+      "蘑菇",
+      "奶油",
+      "大蒜",
+      "百里香"
+    ],
+    "ingredients_sv": [
+      "svamp",
+      "grädde",
+      "vitlök",
+      "timjan"
+    ]
   },
   {
     "id": 19,
@@ -352,11 +684,27 @@
     "dietary": [
       "vegan",
       "lactose-free",
-      "gluten-free", 
+      "gluten-free",
       "halal"
     ],
     "image": "images/mango.jpg",
-    "story": "The perfect palate cleanser or light conclusion to your dining experience. A vibrant, intensely fruity sorbet made exclusively from exceptionally ripe, sweet Alphonso mangoes. It avoids heavily processed sugars, relying entirely on the natural sweetness of the fruit to deliver a frosty, tropical delight."
+    "story": "The perfect palate cleanser or light conclusion to your dining experience. A vibrant, intensely fruity sorbet made exclusively from exceptionally ripe, sweet Alphonso mangoes. It avoids heavily processed sugars, relying entirely on the natural sweetness of the fruit to deliver a frosty, tropical delight.",
+    "name_zh": "芒果雪芭",
+    "name_sv": "Mangosorbet",
+    "description_zh": "沁凉无乳制芒果雪芭。",
+    "description_sv": "Uppfriskande mjölkfri mangosorbet.",
+    "story_zh": "它是绝佳的清口解腻点心，抑或您美餐后的一道轻松收尾。它采用充满活力、果香极为浓烈的雪芭，且仅仅使用极度成熟又非常甜蜜的阿方索芒果（Alphonso mangoes）制作而成。该产品全不含高度加工的糖类，全部依靠鲜果自然的甜蜜为您奉上这份凉爽冰冻的南国体验。",
+    "story_sv": "Den perfekta gomrensaren eller en lätt avslutning på din matupplevelse. En levande, intensivt fruktig sorbet uteslutande gjord på extremt mogna, söta Alphonso-mangos. Den undviker hårt bearbetat socker, och förlitar sig helt på fruktens naturliga sötma för att leverera en immig, tropisk njutning.",
+    "ingredients_zh": [
+      "芒果",
+      "糖",
+      "青柠"
+    ],
+    "ingredients_sv": [
+      "mango",
+      "socker",
+      "lime"
+    ]
   },
   {
     "id": 20,
@@ -373,7 +721,23 @@
       "alcoholic"
     ],
     "image": "images/martini.jpg",
-    "story": "The modern sophisticate's cocktail of choice. We violently shake premium vodka, a splash of coffee liqueur, and a freshly pulled, robust shot of dark roasted espresso. Strained into an elegant, chilled martini glass, it settles with a perfectly thick, crema-like foam top, garnished with three lucky espresso beans."
+    "story": "The modern sophisticate's cocktail of choice. We violently shake premium vodka, a splash of coffee liqueur, and a freshly pulled, robust shot of dark roasted espresso. Strained into an elegant, chilled martini glass, it settles with a perfectly thick, crema-like foam top, garnished with three lucky espresso beans.",
+    "name_zh": "意式浓缩马天尼",
+    "name_sv": "Espresso-Martini",
+    "description_zh": "伏特加、浓缩咖啡及咖啡利口酒。",
+    "description_sv": "Vodka, espresso, kaffelikör.",
+    "story_zh": "这里是体现当代文雅之选的鸡尾酒饮品。我们将顶级伏特加与一小杯咖啡利口酒及一杯现萃取后浓烈深焙醇香意式浓缩互相激荡混合。然后隔滤并倒入一只高挑冷澈的马丁尼玻璃杯内，表面浮着极度醇厚宛若咖啡油脂般持久细密的泡沫，上面还会装饰有这代表好运的三粒微缩意式咖啡豆。",
+    "story_sv": "Den moderna elegantens första cocktailval. Vi skakar kraftigt ihop premiumvodka, en stänk av kaffelikör och en kraftig shot espresso från mörkrostat kaffe. Silad ner i ett elegant, kylt martiniglas sätter den sig med ett perfekt tjockt skum på toppen och pryds av tre kaffebönor.",
+    "ingredients_zh": [
+      "伏特加",
+      "意式浓缩",
+      "甘露咖啡露"
+    ],
+    "ingredients_sv": [
+      "vodka",
+      "espresso",
+      "kahlúa"
+    ]
   },
   {
     "id": 21,
@@ -388,7 +752,19 @@
       "non-alcoholic"
     ],
     "image": "images/water.jpg",
-    "story": "Pure, untouched hydration. We serve premium still mineral water directly from natural, underground European springs. Served perfectly chilled without ice to preserve its smooth, neutral mouthfeel, ensuring it acts as the ideal, unobtrusive companion to your multi-course gastronomic journey."
+    "story": "Pure, untouched hydration. We serve premium still mineral water directly from natural, underground European springs. Served perfectly chilled without ice to preserve its smooth, neutral mouthfeel, ensuring it acts as the ideal, unobtrusive companion to your multi-course gastronomic journey.",
+    "name_zh": "纯净矿泉水",
+    "name_sv": "Stilla Vatten",
+    "description_zh": "高品质瓶装矿泉水。",
+    "description_sv": "Premium flaskvatten.",
+    "story_zh": "纯净、原生态水源。我们提供的都是取自天然、欧洲地下矿泉的顶级优质静态饮用水。为保持其非常光滑平衡的口感，提供时无需额外加冰即可呈现完美的冰凉温度，这能保障作为不夺光环的最佳伴侣为您整个餐饮巡礼做辅。",
+    "story_sv": "Ren, orörd återfuktning. Vi serverar stilla premium mineralvatten direkt från naturliga, underjordiska källor i Europa. Serveras perfekt kall utan is för att bevara sin mjuka, neutrala munkänsla, och säkerställer därmed att den fungerar som den perfekta partnern för din mång-rätters gastronomiska resa.",
+    "ingredients_zh": [
+      "水"
+    ],
+    "ingredients_sv": [
+      "vatten"
+    ]
   },
   {
     "id": 22,
@@ -403,7 +779,23 @@
     "category": "setMeals",
     "dietary": [],
     "image": "images/chefmenu.jpg",
-    "story": "Allow our executive chef to orchestrate a symphonic culinary journey exclusively for you. This three-course progressive tasting menu features a carefully curated starter, our signature main course, and a decadent dessert. It is an exploration of our kitchen's absolute finest seasonal ingredients and techniques."
+    "story": "Allow our executive chef to orchestrate a symphonic culinary journey exclusively for you. This three-course progressive tasting menu features a carefully curated starter, our signature main course, and a decadent dessert. It is an exploration of our kitchen's absolute finest seasonal ingredients and techniques.",
+    "name_zh": "三道式主厨精选",
+    "name_sv": "3-rätters Kockens Meny",
+    "description_zh": "包含布拉塔芝士沙拉、牛排与熔岩巧克力。",
+    "description_sv": "Burrata, Oxfilé, Chokladfondant.",
+    "story_zh": "请允许我们行政主厨亲自为您编排这场为您打造的交响乐美食之旅！这款包含三道菜的品鉴菜单为您提供了精心搭配的前菜、我们的招牌主菜，以及美妙的甜点。这完全是对我们后厨采用极鲜应季食材及极高技艺发挥的一份全面探究。",
+    "story_sv": "Låt vår köksmästare organisera en symfonisk kulinarisk resa unik exklusivt för dig. Denna progressiva avsmakningsmeny på tre rätter visar en noggrant uträknad förrätt, våran signaturhuvudrätt, och en underbar dessert. Det är en spännande utforskning av de absolut finaste säsongsbaserade ingredienserna samt köksteknikerna som vi kan uträtta.",
+    "ingredients_zh": [
+      "布拉塔奶酪",
+      "牛肉",
+      "巧克力"
+    ],
+    "ingredients_sv": [
+      "burrata",
+      "nötkött",
+      "choklad"
+    ]
   },
   {
     "id": 23,
@@ -419,11 +811,27 @@
     "dietary": [
       "vegan",
       "lactose-free",
-      "gluten-free", 
+      "gluten-free",
       "halal"
     ],
     "image": "images/veganmenu.jpg",
-    "story": "An uncompromised, entirely plant-based gastronomic experience. This exclusive two-course journey proves that vegan dining can be exceptionally luxurious. It features a vibrant, nutrient-dense lighter course followed by a deeply satisfying, entirely animal-free main, crafted to surprise and delight the palate."
+    "story": "An uncompromised, entirely plant-based gastronomic experience. This exclusive two-course journey proves that vegan dining can be exceptionally luxurious. It features a vibrant, nutrient-dense lighter course followed by a deeply satisfying, entirely animal-free main, crafted to surprise and delight the palate.",
+    "name_zh": "两道式纯素套餐",
+    "name_sv": "2-rätters Vegansk Meny",
+    "description_zh": "包含藜麦碗与椰奶咖喱。",
+    "description_sv": "Quinoaskål och Vegansk Kokoscurry.",
+    "story_zh": "一场毫不妥协、完全植物基底的极致美食体验。这套独特的两道式旅程证明了纯素餐饮也可以是极其奢华的。它包含一道充满活力、营养丰富的轻食前菜，随后是一道令人深感满足的完全无动物成分主菜，旨在带来令人惊叹的味蕾享受。",
+    "story_sv": "En kompromisslös, hel-och-hållet plantbaserad gastronomisk upplevelse. Denna fantastiska resa på två rätter bevisar att vegansk gastronomi kan vara extremt lyxigt. Den erbjuder en livfull, näringstät och lättare förrätt följd av en djupt tillfredsställande, helt djurfriad huvudrätt, skapad för att överraska och glädja gommen.",
+    "ingredients_zh": [
+      "藜麦",
+      "椰子",
+      "蔬菜"
+    ],
+    "ingredients_sv": [
+      "quinoa",
+      "kokos",
+      "grönsaker"
+    ]
   },
   {
     "id": 24,
@@ -443,6 +851,22 @@
       "onions"
     ],
     "image": "images/oysters.jpg",
-    "story": "The ocean's most exquisite delicacy served raw and perfectly chilled. We present a half-dozen freshly shucked, premium oysters nestled deeply on a bed of crushed ice. Accompanied by our signature, tangy shallot mignonette and fresh lemon wedges to perfectly accentuate their clean, briny, metallic finish."
+    "story": "The ocean's most exquisite delicacy served raw and perfectly chilled. We present a half-dozen freshly shucked, premium oysters nestled deeply on a bed of crushed ice. Accompanied by our signature, tangy shallot mignonette and fresh lemon wedges to perfectly accentuate their clean, briny, metallic finish.",
+    "name_zh": "半壳鲜耗",
+    "name_sv": "Ostron på Halvskal",
+    "description_zh": "半打新鲜生蚝配葱汁。",
+    "description_sv": "Ett halvt dussin färska ostron.",
+    "story_zh": "呈送而至将是原汁新鲜、完美冰镇且极度鲜美的海洋佳肴。本系列我们将展现半打新鲜捕捞、极高品质之天然生蚝并让其深沉的放置在细致碎冰床上。搭配我们极富招牌意义有着极度辛辣开胃感和刺激的红葱头醋汁及新鲜柠檬，以完美突显其干净、充盈海水咸鲜以及独特金属尾韵的绝佳风味。",
+    "story_sv": "Havets mest utsökta delikatess serverad rå och perfekt kyld. Vi presenterar ett halvt dussin färskt öppnade premiumostron vilande djupt på en bädd av krossad is. Ackompanjerad av vår signatur skarpa schalottenlöksmignonette och färska citronklyftor för att perfekt accentuera deras rena, salta och krispiga finish.",
+    "ingredients_zh": [
+      "生蚝",
+      "醋",
+      "红葱头"
+    ],
+    "ingredients_sv": [
+      "ostron",
+      "vinäger",
+      "schalottenlök"
+    ]
   }
 ]
